@@ -6,7 +6,7 @@
         msg: "Hello World!"
     - name: update the system
       yum:
-        name: "*"
+        name: "nginx"
         state: latest
     - name: restart system to reboot to newest kernel
       shell: "sleep 5 && reboot"
